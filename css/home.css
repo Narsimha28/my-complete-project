@@ -1,0 +1,83 @@
+.navbar {
+    position: fixed;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: red;
+    padding: 10px;
+}
+
+.d-flex {
+    margin-left: 1200px;
+}
+
+.col-md-4 a {
+    display: block;
+    margin: 10px;
+    color: grey;
+}
+
+.RegForm {
+    border: 1px solid grey;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-check {
+    margin-left: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-data {
+    display: none;
+}
+
+.tabs-data.active {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.tab-head.active {
+    display: block;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.dropdown-menu li.active {
+
+    color: red;
+}
+
+#apples {
+    margin-left: 700px;
+}
+
+.me- span {
+    margin-left: -700px;
+}
+
+.aa {
+    color: green;
+}

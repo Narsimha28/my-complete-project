@@ -1,0 +1,85 @@
+.tab-head {
+    display: block;
+    background-color: gainsboro;
+}
+
+.tab-head li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.tab-head.active {
+    display: block;
+}
+
+.tab-head li {
+    cursor: pointer;
+    text-align: left;
+}
+
+.tab-head li.active {
+    background-color: brown;
+    color: black;
+}
+
+.tab-head li:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline red;
+}
+
+.tabs-data {
+    text-align: center;
+    display: none;
+}
+
+.tabs-data.active {
+    display: block;
+}
+
+.card-body p {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.card-text li {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.tab-body {
+    display: none;
+}
+
+.acc-h1 {
+    cursor: pointer;
+    display: inline;
+}
+
+.acc-h1 p {
+    display: none;
+}
+
+.plus::after {
+    content: '\f067';
+    font-family: fontawesome;
+    font-size: large;
+    color: red;
+    float: right;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.open .plus::after {
+    content: '\f056';
+    font-family: fontawesome;
+    font-size: large;
+    color: red;
+    float: right;
+    margin-right: 100px;
+    cursor: pointer;
+}
